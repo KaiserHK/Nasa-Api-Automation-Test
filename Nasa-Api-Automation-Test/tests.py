@@ -41,7 +41,7 @@ class TestClass:
     def test_SearchWithEndDateOnly(self):
         #Arrange
         key = "api_key=DEMO_KEY";
-        endDate = "end_date=2000-01-01";
+        endDate = "end_date=2024-01-01";
         query = endDate + "&" + key;
         
         #Act
@@ -54,7 +54,7 @@ class TestClass:
         #Arrange
         key = "api_key=DEMO_KEY";
         startDate = "start_date=2022-01-01";
-        endDate = "end_date=2023-01-01";
+        endDate = "end_date=2022-01-08";
         query = startDate + "&" + endDate + "&" + key;
         
         #Act
